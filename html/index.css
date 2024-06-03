@@ -1,0 +1,25 @@
+* {
+  color: blue;
+  background-color: aquamarine;
+}
+#achyut {
+  color: black;
+}
+.name1 {
+  color: yellowgreen;
+}
+#d {
+  background-color: blue;
+}
+#s {
+  background-color: brown;
+}
+.parent {
+  font-size: 2rem;
+}
+.inner {
+  font-size: 2rem;
+}
+.outer {
+  font-size: 2rem;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <form onsubmit="formSubmission(); return false" id="contactForm">
+      <label>Full Name</label>
+      <input name="name" placeholder="Enter full Name" required />
+      <br />
+      <label>Email</label>
+      <input
+        type="email"
+        name="Email"
+        placeholder="achyut@gmail.com"
+        required
+      />
+      <br />
+      <label>choose your country</label>
+      <select name="country">
+        <option value="">select tour country</option>
+        <option>kathmandu</option>
+        <option>bhaktapur</option>
+        <option>Lalitpur</option>
+      </select>
+      <br />
+      <textarea rows="20" cols="100" name="message"></textarea>
+      <br />
+      <button>submit</button>
+      <button type="reset">Reset</button>
+    </form>
+    <div id="systemMsg"></div>
+    <div class="systemMsgs"></div>
+    <script src="contact.js"></script>
+  </body>
+</html>
